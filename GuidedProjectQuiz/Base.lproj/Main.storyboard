@@ -105,6 +105,10 @@
                     <navigationItem key="navigationItem" title="Result" id="R2C-s5-Hrd">
                         <barButtonItem key="rightBarButtonItem" title="Done" id="kMz-cJ-RP6"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="resultAnswerLabel" destination="eRE-H0-diI" id="sh6-na-wVJ"/>
+                        <outlet property="resultDefinitionLabel" destination="JbA-jL-jX1" id="uRS-gL-J4l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DAG-5w-H5V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
